@@ -18,12 +18,8 @@ ForkPlate displays a visual representation of parent and forked child processes 
 ## Getting Started
 
 1. Ensure your system has SDL2, SDL_Image, and SDL_TTF installed.
-2. Build the project using your preferred C compiler. For example:
-   ```bash
-   gcc -o forkplate forkplate.c -lSDL2 -lSDL2_image -lSDL2_ttf
-   ```
-3. Make sure you have the required assets (such as `plate_img.png` and `fork_img.png`) in the correct location.
-4. Run the executable:
+2. Make sure you have the required assets (such as `plate_img.png` and `fork_img.png`) in the correct location.
+3. Run the executable:
    ```bash
    ./forkplate
    ```
